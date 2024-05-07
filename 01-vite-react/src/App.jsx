@@ -2,7 +2,13 @@
 import Chai from "./Chai";
 
 function App() {
-  return <Chai />;
+  const usr = "kartiksrma";
+  return (
+    <>
+      <Chai />
+      <h1>chai aur react {usr}</h1>
+    </>
+  );
 }
 
 export default App;
