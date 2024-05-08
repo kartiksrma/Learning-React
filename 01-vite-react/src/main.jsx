@@ -8,4 +8,9 @@ const reactElem = React.createElement(
   "click me"
 );
 
-ReactDOM.createRoot(document.getElementById("root")).render(App());
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <>
+    <reactElem>
+    App()
+  </>
+);
